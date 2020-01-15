@@ -1,0 +1,91 @@
+/* Pour toutes les pages */
+
+body {
+  background-color: #b7dfe0;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h3{
+  margin-top: 2%;
+  margin-bottom: 10%;
+  font-size: 30px;
+}
+
+
+/* Formulaire */
+
+form{
+  margin: auto;
+}
+
+input, select, textarea{
+  width: 70%;
+  padding: 12px 12px;
+  margin: 8px 0px 35px 0px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #303f50;
+  outline: none;
+  transition: 0.3s;
+  display: inline-block;
+  align-content: center;
+}
+
+input:focus, select:focus, textarea:focus{
+  border-color: #000;
+}
+
+.valider{
+  background-color: #07E625;
+}
+
+.annuler{
+  background-color: #971717;
+}
+
+input[type=submit]{    
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+  background-color: #3271e7;
+}
+
+table, th, td {
+  border: 1px solid grey;
+  text-align: left;
+}
+
+table{
+  border-collapse: collapse;
+  margin: 2% 0% 2% 25%;
+  width: 50%;
+}
+
+th{
+  height: 30px;
+  text-align: center;
+  background-color: #f0f0f05e;
+}
+
+td{
+  width: 50%;
+  padding: 6px 0px 6px 6px;  
+  border-radius: 8px;
+}
+
+.doubletable{
+  width: 70%;
+  margin: auto;
+  border: 0px solid;
+}
+
+.doubletd{
+  border: 0px solid;
+}

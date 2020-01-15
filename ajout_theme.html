@@ -1,0 +1,27 @@
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+	<h3>Formulaire d'ajout d'un nouveau thème</h3>
+	<FORM  METHOD='POST'  ACTION="ajouter_theme.php"> 
+	Nom : 
+	<br>
+	<input type="text" name="nom" placeholder="Nom" maxlength="30" required>
+	<br> 
+	Descriptif : 
+	<br> 
+	<input type="text" name="descriptif" placeholder="Descriptif" required>
+	<br> 
+	<input type="hidden" name="reactivation" value=0>
+	<br>
+	<input class="valider" VALUE="Envoyer" TYPE="SUBMIT"> 
+	</FORM> 
+</body>
+
+
+</html>
